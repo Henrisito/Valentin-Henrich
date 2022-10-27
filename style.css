@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 100px;
+}
+
+header {
+    display: flex;
+    min-height: 220px;
+    justify-content: space-around;
+    background-color: #5cc5ff;
+    align-items: center;
+}
+
+li {
+    float: left
+}
+
+a {
+    color: white;
+}
+
+@media (max-width:1190px){
+    header{
+        flex-direction:column;
+    }
+
+    .buttons {
+        padding: 10px 0px;
+    }
+}
+
+.body{
+    background-color: rgb(216, 222, 231);
+}
+
+.envio-sucursales-ofertas{
+    background-color: white;
+}
+
+.body a{
+    text-decoration: none;
+}
+
+.juegosyjuguetes {
+    background-color: #03989E;
+}
+
+.bebes {
+    background-color: #5E17EB;
+}
+
+.giftcards {
+    background-color: #F85505;
+}
+
+.contacto {
+    background-color: #7ED957; 
+}
+
+.button {
+    padding: 20px;
+    margin: 30px;
+    position: relative;
+    border-radius: 15px;
+    
+}
+
+.button:hover {
+    transform: scale(1.5);
+    transition: all 1s;
+}
+/* Por alguna razon que no comprendo, habiendo intentado incontables formas distintas, no pude hacer que se aplique esta animacion a los links del header pero si se aplico en los botones que estan fuera del header*/
+
+.new-01 {
+    display: flex;
+    justify-content: center;
+}
+
+.envio-sucursales-ofertas {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: 90%;
+    margin: 5%;
+    grid-gap: 30px;
+}
+
+.envio-sucursales-ofertas img {
+    transition: all 300ms;
+    position:relative;
+}
+
+.envio-sucursales-ofertas div:hover {
+    transform: scale(1.5);
+}
