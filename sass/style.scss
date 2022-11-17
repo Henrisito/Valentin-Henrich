@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import 'components/_header.scss';
+@import 'components/_footer.scss';
+@import 'components/_carousel.scss';
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+} 
