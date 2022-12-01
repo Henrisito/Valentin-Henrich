@@ -1,0 +1,36 @@
+.nosotros{
+    padding-top: 90px;
+    .nos{
+        text-align: center;
+        line-height: 70px;
+        color: white;
+        background-color: #424866;
+    }
+    .info{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 500px;
+        .transporte{
+            text-align: center;
+            padding: 10px;
+            h3{
+                padding: 20px;
+            }
+        }
+        .horario{
+            text-align: center;
+            padding: 40px;
+            h3{
+                padding: 20px;
+            }
+        }
+    }
+}
+.map{
+    h4{
+        text-align: center;
+        padding: 20px;
+    }
+}

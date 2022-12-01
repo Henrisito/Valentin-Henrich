@@ -1,0 +1,225 @@
+.title{
+    .titletext{
+        text-align: center;
+        line-height: 80px;
+        color: white;
+        background-color: #424866;
+    }
+    a{
+        text-decoration: none;
+        h2{
+            text-align: center;
+            line-height: 80px;
+            color: #424866;
+            padding-top: 20px;
+        }
+    }
+}
+.nu{
+    h2{
+        text-align: center;
+        line-height: 80px;
+        color: #424866;
+    }
+}
+.ofertas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tarjeta {
+    height: 510px;
+    width: 350px;
+    box-shadow: 0 0 7px rgb(71, 71, 71);
+    margin: 30px 30px;
+    border-radius: 20px;
+    background-color:#d9e4e9;
+    .card {
+        height: 330px;
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 20px;
+    }
+    .ironman{
+        background-color:#F6F6F6;
+        img{
+            height: 300px;
+            width: 230px;
+        }
+    }
+    .miles{
+        background-color:#F6F6F6;
+        img{
+            height: 300px;
+            width: 380px;
+        }
+    }
+    .spiderman{
+        background-color:#F6F6F6;
+        img{
+            height: 300px;
+            width: 380px;
+        }
+    }
+    .venom{
+        background-color:#F6F6F6;
+        img{
+            height: 300px;
+            width: 380px;
+        }
+    }
+    .razor{
+        background-color:#F6F6F6;
+        img{
+            height: 300px;
+            width: 300px;
+        }
+    }
+    .bowser{
+        background-color:#F6F6F6;
+        img{
+            height: 270px;
+            width: 300px;
+        }
+    }
+    .fut{
+        background-color:#F6F6F6;
+        img{
+            height: 250px;
+            width: 300px;
+        }
+    }
+    .howart{
+        background-color:#F6F6F6;
+        img{
+            height: 300px;
+            width: 300px;
+        }
+    }
+
+    .stunt{
+        background-color:#F6F6F6;
+        img{
+            height: 300px;
+            width: 300px;
+        }
+    }
+    .van{
+        background-color:#F6F6F6;
+        img{
+            height: 300px;
+            width: 370px;
+        }
+    }
+    .tank{
+        background-color:#F6F6F6;
+        img{
+            height: 220px;
+            width: 300px;
+        }
+    }
+    .nether{
+        background-color:#F6F6F6;
+        img{
+            height: 250px;
+            width: 300px;
+        }
+    }
+    .warped{
+        background-color:#F6F6F6;
+        img{
+            height: 220px;
+            width: 300px;
+        }
+    }
+    .ice{
+        background-color:#F6F6F6;
+        img{
+            height: 280px;
+            width: 350px;
+        }
+    }
+    .ducati{
+        background-color:#F6F6F6;
+        img{
+            height: 270px;
+            width: 300px;
+        }
+    }
+    .porsche{
+        background-color:#F6F6F6;
+        img{
+            height: 280px;
+            width: 300px;
+        }
+    }
+    .ferrari{
+        background-color:#F6F6F6;
+        img{
+            height: 200px;
+            width: 300px;
+        }
+    }
+    .mixer{
+        background-color:#F6F6F6;
+        img{
+            height: 220px;
+            width: 300px;
+        }
+    }
+    .formula{
+        background-color:#F6F6F6;
+        img{
+            height: 240px;
+            width: 300px;
+        }
+    }
+}
+.card{
+    img{
+        margin: auto;
+        display: block;
+    }
+}
+.info{
+    height: 80px;
+    width: 100%;
+    a{
+        text-decoration: none;
+        color: black;
+        h2{
+            font-size: 1.2em;
+            text-align: center;
+            margin-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+    p{
+        text-align: center;
+        font-size: .9em;
+    }
+}
+.precio{
+    height:50px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-precio{
+    width: 80px;
+}
+.precio1{
+    font-size: .8em;
+    color: red;
+    .precio2{
+        font-size: 1.5em;
+    }
+}
+.carrito{
+    font-size: 1.5em;
+    color: #424866;
+}

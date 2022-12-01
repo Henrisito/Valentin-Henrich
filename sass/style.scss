@@ -2,10 +2,24 @@
 @import 'components/_header.scss';
 @import 'components/_footer.scss';
 @import 'components/_carousel.scss';
-@import 'components/_ofertas.scss';
+@import 'components/_productos.scss';
+@import 'components/_sets.scss';
+@import 'components/_nosotros.scss';
+@import 'components/_piezas.scss';
+@import 'components/_ayuda.scss';
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 } 
+@media only screen and (max-width: 667px){
+  body{
+    background-color: #424866;
+    .of, .nu, .map, .transporte, .horario{
+      h2, h3, h4{
+        color: white;
+      }
+    }
+  }
+}
